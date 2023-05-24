@@ -16,7 +16,7 @@ const Footer = () => {
                 </div>
                 <div className="col-12 col-md-12 footer-column mb-5" id="footer-center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <p className="secondary-color">Dúvidas? Ligue para nós!</p>
-                    <a className="store-phone" href='tel: 5571993763244'><i className="bi bi-telephone" ></i>(71)99376-3244</a>
+                    <a className="store-phone" href='tel: 5571993763244'><i className="bi bi-telephone" ></i>(71)99294-2367</a>
                 </div>
             </div>
             <div className="container" id="copy-container">
