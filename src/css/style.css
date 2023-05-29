@@ -273,6 +273,7 @@ html {
 } 
 .store-phone {
   text-decoration: none;
+ 
 }
 /* NEWS */
 #contato {
@@ -328,7 +329,7 @@ html {
 .scroll-up:hover{
   color: #FCF5EB;
 }
-@media(min-width: 360px) and (max-width: 480px){
+@media(min-width: 320px) and (max-width: 480px){
   
   #news-form{
     max-width: 300px;
@@ -339,7 +340,9 @@ html {
   .carousel-titulo {
     font-size: 2em;
   }
-  
+  .store-phone {
+    font-size: 1.5em !important;
+  } 
 }
  @media(min-width: 768px) and (max-width: 1024px) {
   .carousel-img {

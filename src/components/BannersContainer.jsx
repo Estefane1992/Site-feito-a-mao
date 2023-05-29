@@ -42,20 +42,20 @@ const BannersContainer = () => {
       </Carousel.Item>
     </Carousel>
     </div>
-    <div className="container" data-aos="fade-down" data-aos-duration="1500">
+    <div className="container" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000">
       <Row xs={1} md={4}  style={{ justifyContent: "center"}}>
         <Col className="card-banner1" >
-          <div className="card-content" data-aos="fade-down" data-aos-duration="3000">
+          <div className="card-content" data-aos="fade-down"  data-aos-easing="linear" data-aos-duration="3000">
             <span>Roupas</span>
           </div>
         </Col>
         <Col className="card-banner2" >
-          <div className="card-content" data-aos="fade-down" data-aos-duration="3000">
+          <div className="card-content" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000">
             <span>Acessórios</span>
           </div>
         </Col>
         <Col className="card-banner3" >
-          <div className="card-content" data-aos="fade-down" data-aos-duration="3000">
+          <div className="card-content" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000">
             <span>Casa</span>
           </div>
         </Col>
