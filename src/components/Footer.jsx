@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer id="footer">
-            <div className="container-fluid dark-bg-color" id="contato">
+            <div className=" dark-bg-color" id="contato">
                 <div className="col-12">
                     <div className="row">
                         <p className="secondary-color mt-5" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Receba todas as nossas Ofertas e Novidades</p>
@@ -20,7 +20,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="container" id="copy-container">
-                <p>Todos os direitos reservados @2023 <span className="primary-color">Feito à mão</span></p>
+                <p className='mb-5'>Todos os direitos reservados @2023 <span className="primary-color">Feito à mão</span></p>
             </div>
         </footer>
     );

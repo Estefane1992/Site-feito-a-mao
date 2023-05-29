@@ -35,46 +35,15 @@ html {
   color: #FCF5EB
 }
 /* NAVBAR */
-.nav-link i:hover {
-  color: #C09578 !important;
-}
-#navbar .navbar-nav {
-  flex-direction: row;
-  justify-content: flex-end;
-} 
-#navbar .navbar-nav li {
-  margin-left: 1em;
-}  
-#navbar a,
-#navbar button {
-  color: #FFF;
-} 
-#navbar li {
-  position: relative;
-} 
-#navbar i {
-  font-size: 20px;
-} 
-#navbar span {
-  position: absolute;
-  top: -8px;
-  right: -8px;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #EF3636;
-  text-align: center;
-}  
-#bag-item span {
-  left: 20px;
-} 
+ 
 .navbar-brand {
   font-weight: 700;
-  width: 100%;
   text-align: center;
+  margin-right: 90px !important;
 } 
 #navbar-items {
   justify-content: space-between;
+ 
 }
 #search-form,
 #news-form {
@@ -141,86 +110,77 @@ html {
 }
 
 /* BANNERS */
-.carousel-caption {
-  bottom: 5em;
-  padding: 1em;
-  left: 12%;
-  right: 12%;
-}  
-.carousel-caption h5{
-  font-size: 1.8em;
- 
-}  
-/* MINI BANNERS */
-#mini-banners {
-  margin-top: -3em;
-  z-index: 10;
-}  
-#mini-banners .col-12 {
-  z-index: 1;
-  height: 300px;
-  padding: 1.5em;
-  position: relative;
+.carousel-titulo {
+  
+  font-size: 5em;
+}
+.carousel-img {
+  height:600px !important;
+}
+.card-content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-} 
-#mini-banners .col-12 h2 {
-  text-transform: uppercase;
-  max-width: 50px;
-  font-size: 2em;
-  font-weight: 700;
-  line-height: 1em;
-  color: #EFf;
-  margin-top: 230px;
+  justify-content: flex-end;
+  height: 100%;
   
-} 
-#mini-banners .col-12 img {
-  height: 220px;
-  position: absolute;
-  right: 1rem;
-  bottom: 1rem;
-} 
-#mini-banners .col-12 a {
-  font-weight: bold;
-  color: #FFF;
-  font-size: 1.2rem;
-  transition: .5s;
-  text-decoration: none;
-}  
-#mini-banners .col-12 a {
-  font-weight: bold;
 }
-#mini-banners .col-12 a:hover {
-  color: #000;
-}  
- 
-#mini-banner-1 {
-  background-image: url(../img/produtos/SaiaG.jpg);
-  background-repeat: no-repeat;
+.card-content span {
+  color: white;
+  font-weight: bolder;
+  font-size: 3em;
+  margin-bottom: 50px;
+  
+}
+.card-banner1 {
+  margin: 10px !important;
+  color: whitesmoke;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  background-image: url(../img/produtos/SaiaG.jpg) !important;
   background-position: center center;
   background-size: cover;
-}
-#mini-banner-1:hover{
-  transform: scale(1.1);
-}
-#mini-banner-2 {
-  background-image: url(../img/produtos/bolsa-de-praia-.jpg);
   background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  opacity: 0.8;
+  height: 30vh !important;
+}
+.card-banner2 {
+  margin: 10px !important;
+  color: whitesmoke;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  background-image: url(../img/produtos/bolsa-de-praia-.jpg) !important;
   background-position: center center;
   background-size: cover;
-}
-#mini-banner-2:hover{
-  transform: scale(1.1);
-}
-#mini-banner-3 {
-  background-image: url(../img/produtos/toalha-mesa.jpg);
   background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  opacity: 0.8;
+  height: 30vh !important;
+}
+.card-banner3 {
+  margin: 10px !important;
+  color: whitesmoke;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  background-image: url(../img/produtos/toalha-mesa.jpg) !important;
   background-position: center center;
   background-size: cover;
-}
-#mini-banner-3:hover{
-  transform: scale(1.1);
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  opacity: 0.8;
+  height: 30vh !important;
 }
 /* PRODUTOS*/
 #best-sellers {
@@ -239,12 +199,11 @@ html {
   font-size: 2.5em;
   margin-top: 110px;
   text-align: center !important;
-  
 } 
 .card {
   text-align: center;
- 
-} 
+
+}
 
 .card .card-category {
   font-size: .8rem;
@@ -273,27 +232,8 @@ html {
 .produto-card:hover {
   transform: scale(1.1);
 }
-/* BOTTOM BANNER */
-#bottom-banner {
-  background-color: #101010; 
-  padding: 6em;
-  margin-bottom: 4em;
-  text-align: center;
-} 
-#bottom-banner .offer-subtitle,
-#bottom-banner h2 {
-  text-transform: uppercase;
-  font-weight: bold;
-} 
-#bottom-banner .btn {
-  margin: 2em;
-  font-weight: bold;
-  padding: 1em;
-} 
-#bottom-banner img {
-  max-width: 175px;
-}  
-  
+
+ 
 /* FOOTER */
 #footer {
   margin-top: 200px;
@@ -373,7 +313,8 @@ html {
 /* SCROOLL UP */
 .scroll-up {
   position: fixed;
-  bottom: 50px;
+  bottom: 10px;
+
   right: 30px;
   border: none;
   font-size: 2rem;
@@ -387,47 +328,37 @@ html {
 .scroll-up:hover{
   color: #FCF5EB;
 }
-
-@media(min-width: 768px) {
-  .navbar-brand {
-    text-align: left;
+@media(min-width: 320px) and (max-width: 480px){
+  
+  #news-form{
+    max-width: 300px;
   }
-  #navbar-items {
-    display: flex;
-    min-width: 80%;
+  .carousel-img {
+    height:100vw !important;
   }
-  #search-form {
-    width: 50%;
-    margin: 0;
+  .carousel-titulo {
+    font-size: 2em;
   }
-  #slider .carousel-item,
-  #slider img {
-    height: 600px;
-    
+  
+}
+ @media(min-width: 768px) and (max-width: 1024px) {
+  .carousel-img {
+    height:60vw !important;
   }
-  .carousel-caption {
-    left: 23%;
-    right: 23%;
+  .carousel-titulo {
+    font-size: 3em;
   }
-  .carousel-caption h5 {
-    font-size: 4em;
-  }
-  #mini-banners .col-12 {
-    max-width: 31%;
-  }
-  .title {
-    text-align: left;
-  }
-  #bottom-banner h2 {
-    font-size: 6em;
-  }
+ 
   #footer .footer-column {
     padding: 5em 2em;
   }
   #footer-links-container li {
     text-align: left;
   }
-}
+  #news-form{
+    max-width: 600px;
+  }
+} 
 
 
 

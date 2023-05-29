@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Dropdown } from "react-bootstrap";
 const Navbar = () => {
     return (
-    <nav className="navbar fixed-top navbar-expand-lg secondary-bg-color p2" id="bottom-navbar-container">
+    <nav className="navbar fixed-top navbar-expand-lg secondary-bg-color" id="bottom-navbar-container">
       <div className="container">
         <Link className="navbar-brand" to="/"><img src="" alt=""/>Feito à mão</Link>
         <button
@@ -18,7 +18,7 @@ const Navbar = () => {
         >
           <i className="bi bi-list"></i>
         </button>
-        <ul className="navbar-nav mb-2 mb-lg-0 collapse navbar-collapse" id="bottom-navbar">
+        <ul className="navbar-nav  mb-lg-0 collapse navbar-collapse" id="bottom-navbar">
           <li className="nav-item">
             <Link to="/" className="nav-link">
               Home
