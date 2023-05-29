@@ -113,6 +113,7 @@ html {
 .carousel-titulo {
   
   font-size: 5em;
+  font-weight: bolder;
 }
 .carousel-img {
   height:600px !important;
